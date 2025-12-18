@@ -24,7 +24,6 @@ public class Problema05 {
             {"Steven West", "Toni Martin"}
         };
         String acumulador = "";
-
         for (int i = 0; i < estudiantes.length; i++) {
             for (int j = 0; j < estudiantes[i].length; j++) {
                 

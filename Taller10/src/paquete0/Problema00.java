@@ -28,8 +28,6 @@ public class Problema00 {
             }
             sumaNotas[i] = suma; // 
         }
-        
-        // Presentación de resultados
         for (int i = 0; i < nombresEstudiante.length; i++) {
             reporte = String.format("%sEstudiante %s tiene una sumataria "
                     + "de notas: %.3f\n",
@@ -37,7 +35,6 @@ public class Problema00 {
                     nombresEstudiante[i],
                     sumaNotas[i]);
         }
-        
         System.out.printf("%s\n", reporte);
         
     }
